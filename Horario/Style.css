@@ -1,0 +1,130 @@
+
+body{
+    padding-right: 15px;
+    padding-left: 15px;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    width: 100vw; 
+    background-color: black;
+    /* change to vw 100% */ 
+    /*height: 86vh;*/
+    
+  }
+  main{
+    background-image: url('https://romsdesigns.com/wp-content/uploads/2022/08/jean-philippe-delberghe-75xPHEQBmvA-unsplash-scaled.jpg');
+    
+  }
+  .bgglass{
+      backdrop-filter: blur(7px);
+     -webkit-backdrop-filter: blur(7px);
+      margin-left: 15px;
+      margin-right: 15px;
+      box-shadow: rgba(15, 15, 15, 0.08) 0px 8px 24px;
+      border-radius: 25px;
+      border-color: white;
+      border-style: solid;
+      border-width: 0.5px;
+      padding: 20px;
+  }
+  .Header{
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  #Canvas{
+    border-color: green;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+  }
+  
+  #Portal{
+    border-color: green;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #content{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+  }
+  #cName{
+    color: white;
+  }
+  #cTeach{
+    color: white;
+  }
+  #cLocation{
+    color: white;
+  }
+  #cDuration{
+    color: white;
+  }
+  
+  #cTime{
+    color: white;
+    font-weight: 500;
+  }
+  
+  #ccDate{
+    color: white;
+    font-weight: 500;
+  }
+  
+  .bgglass{
+      backdrop-filter: blur(7px);
+     -webkit-backdrop-filter: blur(7px);
+      margin-left: 15px;
+      margin-right: 15px;
+      box-shadow: rgba(15, 15, 15, 0.08) 0px 8px 24px;
+      border-radius: 25px;
+      border-color: white;
+      border-style: solid;
+      border-width: 0.5px;
+      padding: 20px;
+  }
+  .content{
+    border-style: solid;
+    border-width: 2px; 
+    border-color: green;
+  }
+  .sigDatos{
+    border: solid;
+    border-color: red;
+    border-width: 1px;
+  
+    width: 300px;
+  }
+  
+  hr{
+      border-top: 2px solid white;
+      width: 300px;  
+  }
+  
+  #sigClase, #sigTiempo, #sigSalon{
+    color: white;
+  }
+  
+  #ledDot {
+    height: 8px;
+    width: 8px;
+    background-color: purple;
+    border-radius: 4px;
+    margin-top: 38px;
+    margin-left: 20px;
+  }
+  .ledDotDiv{
+    display: flex;
+    justify-content: inline;
+  }
